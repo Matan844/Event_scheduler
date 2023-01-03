@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { Detail } from "./Context";
-// import { useEffect } from "react";
 export default function Forme() {
   const [EventName, setEventName] = useState("");
   const [EventStartDate, setEventStartDate] = useState("");
@@ -31,9 +30,6 @@ export default function Forme() {
   const MoveToDetailPage = (single) => {
     setPrat(single);
   };
-//   useEffect(() => {
-//     removeElement(0);
-// }, []);
   return (
     <div>
       <h1>Event scheduler</h1>
@@ -90,4 +86,5 @@ export default function Forme() {
       })}
     </div>
   );
+
 }
