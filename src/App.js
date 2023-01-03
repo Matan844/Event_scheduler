@@ -1,8 +1,8 @@
 import "./App.css";
-import { Form, NavLink, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import DetailPage from "./components/Detail";
 import Forme from "./components/EventForm";
-import { useContext, createContext, React } from "react";
+import { React } from "react";
 import Context from "./components/Context";
 
 function App() {

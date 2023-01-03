@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import Forme from "./EventForm";
+// import Forme from "./EventForm";
 import { Detail } from "./Context";
 import { NavLink } from "react-router-dom";
 export default function DetailPage() {
-  const { Event, setEvent } = useContext(Detail);
-  const { prat, setPrat } = useContext(Detail);
+  // const { Event, setEvent } = useContext(Detail);
+  const { prat } = useContext(Detail);
 
   return (
     <div className="detailpage">
